@@ -1,0 +1,118 @@
+
+.bg-image {
+    background-image: url('/app/img/bg-image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+.title {
+    margin-left: 19%;
+    font-size: 26px;
+}
+p.tagline {
+    font-size: 20px;
+    color: #ddd;
+}
+.user-selection {
+    width: 1200px;
+    margin: 0 auto;
+}
+.user-group {
+    margin-top: 35%;
+    margin-bottom: 50px; 
+}
+.user-group h2 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+ul.selection li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+}
+ul.selection li:last-child {
+    margin-right: 0;
+}
+ul.selection li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 19px;
+}
+.login-panel {
+    position: absolute;
+    right: 20px;
+    background-color: #fff;
+    width: 400px;
+    border-radius: 4px;
+    top: 100px;
+}
+.login-header .welcome {
+    font-size: 30px;
+    color: #880D13;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+.login-header p.wel-msg{
+    margin: 0 0 20px 20px;
+}
+.login-msg {
+    margin: 20px;
+}
+.login-alternative {
+    float: right;
+    margin-right: 15px;
+}
+.clearfix{
+    clear: both;
+    content: '';
+}
+.login-method {
+    margin-top: 10px;
+}
+.login-method a {
+    display: inline-block;
+    text-decoration: none;
+    width: 156px;
+    color: #ddd;
+    font-size: 20px;
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(113,114,120,1);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(113,114,120,1);
+    box-shadow: 0px 0px 3px 1px rgba(113,114,120,1);
+}
+.login-method a:first-child {
+    background-color: #880D13;
+}
+.login-method a:last-child {
+    color: #000;
+}
+.warning {
+    padding: 20px;
+    background-color: #b9bbc7;
+}
+.warning-header {
+    font-size: 25px;
+    color: #880D13;
+    margin: 0;
+}
+.warning-msg {
+    margin: 0;
+}
+.contact-us {
+    float: left;
+    margin-left: 40px;
+}
+.copyright {
+    float: right;
+    margin-right: 40px;
+}
+.copyright span {
+    color: #ddd;
+}
+.contact-us a {
+    text-decoration: none;
+    color: #ddd;
+}
